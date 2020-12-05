@@ -113,8 +113,4 @@ def create_entry(my_dict):
 	data_list.append(passport(byr, iyr, eyr, hgt, hcl, ecl, pid, cid))
 	
 
-''''
-guess 1 = 284 - too high
-guess 2 = 259 - too low
-'''
 process_data()
