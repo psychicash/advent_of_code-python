@@ -9,10 +9,10 @@ variable2 = 0
 product_total = 0
 
 #loop
-for i in range(len(num_list)):
-    var1 = num_list[i]
-    for j in range(len(num_list)):
-        if j == i:
+for num in num_list:
+    var1 = num_list[num]
+    for j in num_list:
+        if j == num:
             continue
         #inner_loop
         var2 = num_list[j]
