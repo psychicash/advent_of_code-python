@@ -33,8 +33,6 @@ def jump(value, counter, accumulator):
 	value2 = int(value)
 	instructions[counter] = 'Done'
 	values[counter] = 'Done'
-	print("Jumping from " + str(counter) + " to " + str(counter + value2) + " because jump has a value of " + str(value) + " and ")
-	print(value2)
 	return counter + value2, accumulator
 
 def no_op(value, counter, accumulator):
